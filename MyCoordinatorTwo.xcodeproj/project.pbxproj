@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		61F0D10026859F8400984A8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D0FF26859F8400984A8C /* AppDelegate.swift */; };
 		61F0D10226859F8400984A8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D10126859F8400984A8C /* SceneDelegate.swift */; };
-		61F0D10426859F8400984A8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D10326859F8400984A8C /* ViewController.swift */; };
-		61F0D10726859F8400984A8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F0D10526859F8400984A8C /* Main.storyboard */; };
 		61F0D10926859F8800984A8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F0D10826859F8800984A8C /* Assets.xcassets */; };
 		61F0D10C26859F8800984A8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F0D10A26859F8800984A8C /* LaunchScreen.storyboard */; };
+		61F0D11626859FF600984A8C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D11526859FF600984A8C /* Coordinator.swift */; };
+		61F0D1182685A09100984A8C /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D1172685A09100984A8C /* AppCoordinator.swift */; };
+		61F0D1202685A14A00984A8C /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D11F2685A14A00984A8C /* LoginCoordinator.swift */; };
+		61F0D1222685A16500984A8C /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D1212685A16500984A8C /* HomeCoordinator.swift */; };
+		61F0D1242685A1A500984A8C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D1232685A1A500984A8C /* LoginViewController.swift */; };
+		61F0D1262685A1BE00984A8C /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D1252685A1BE00984A8C /* SignupViewController.swift */; };
+		61F0D1282685A1DD00984A8C /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D1272685A1DD00984A8C /* ForgotPasswordViewController.swift */; };
+		61F0D12A2685A1F800984A8C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D1292685A1F800984A8C /* MenuViewController.swift */; };
+		61F0D12C2685A21300984A8C /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D12B2685A21300984A8C /* MovieListViewController.swift */; };
+		61F0D12E2685A22400984A8C /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F0D12D2685A22400984A8C /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		61F0D0FC26859F8400984A8C /* MyCoordinatorTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoordinatorTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F0D0FF26859F8400984A8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61F0D10126859F8400984A8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		61F0D10326859F8400984A8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		61F0D10626859F8400984A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61F0D10826859F8800984A8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61F0D10B26859F8800984A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61F0D10D26859F8800984A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F0D11526859FF600984A8C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		61F0D1172685A09100984A8C /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		61F0D11F2685A14A00984A8C /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		61F0D1212685A16500984A8C /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		61F0D1232685A1A500984A8C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		61F0D1252685A1BE00984A8C /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		61F0D1272685A1DD00984A8C /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		61F0D1292685A1F800984A8C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		61F0D12B2685A21300984A8C /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		61F0D12D2685A22400984A8C /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,79 @@
 		61F0D0FE26859F8400984A8C /* MyCoordinatorTwo */ = {
 			isa = PBXGroup;
 			children = (
-				61F0D0FF26859F8400984A8C /* AppDelegate.swift */,
-				61F0D10126859F8400984A8C /* SceneDelegate.swift */,
-				61F0D10326859F8400984A8C /* ViewController.swift */,
-				61F0D10526859F8400984A8C /* Main.storyboard */,
+				61F0D11426859FC500984A8C /* App */,
+				61F0D11326859FBD00984A8C /* MainCoordinator */,
+				61F0D1192685A0CC00984A8C /* Scenes */,
 				61F0D10826859F8800984A8C /* Assets.xcassets */,
 				61F0D10A26859F8800984A8C /* LaunchScreen.storyboard */,
 				61F0D10D26859F8800984A8C /* Info.plist */,
 			);
 			path = MyCoordinatorTwo;
+			sourceTree = "<group>";
+		};
+		61F0D11326859FBD00984A8C /* MainCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				61F0D11526859FF600984A8C /* Coordinator.swift */,
+				61F0D1172685A09100984A8C /* AppCoordinator.swift */,
+			);
+			path = MainCoordinator;
+			sourceTree = "<group>";
+		};
+		61F0D11426859FC500984A8C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				61F0D0FF26859F8400984A8C /* AppDelegate.swift */,
+				61F0D10126859F8400984A8C /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		61F0D1192685A0CC00984A8C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				61F0D11D2685A11900984A8C /* Home */,
+				61F0D11A2685A0EB00984A8C /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		61F0D11A2685A0EB00984A8C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				61F0D11F2685A14A00984A8C /* LoginCoordinator.swift */,
+				61F0D11B2685A0FB00984A8C /* Controllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		61F0D11B2685A0FB00984A8C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				61F0D1232685A1A500984A8C /* LoginViewController.swift */,
+				61F0D1252685A1BE00984A8C /* SignupViewController.swift */,
+				61F0D1272685A1DD00984A8C /* ForgotPasswordViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		61F0D11D2685A11900984A8C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				61F0D1212685A16500984A8C /* HomeCoordinator.swift */,
+				61F0D11E2685A12F00984A8C /* Controllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		61F0D11E2685A12F00984A8C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				61F0D1292685A1F800984A8C /* MenuViewController.swift */,
+				61F0D12B2685A21300984A8C /* MovieListViewController.swift */,
+				61F0D12D2685A22400984A8C /* MovieDetailViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +206,6 @@
 			files = (
 				61F0D10C26859F8800984A8C /* LaunchScreen.storyboard in Resources */,
 				61F0D10926859F8800984A8C /* Assets.xcassets in Resources */,
-				61F0D10726859F8400984A8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +216,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61F0D10426859F8400984A8C /* ViewController.swift in Sources */,
+				61F0D1242685A1A500984A8C /* LoginViewController.swift in Sources */,
+				61F0D12A2685A1F800984A8C /* MenuViewController.swift in Sources */,
+				61F0D1182685A09100984A8C /* AppCoordinator.swift in Sources */,
+				61F0D1262685A1BE00984A8C /* SignupViewController.swift in Sources */,
+				61F0D12E2685A22400984A8C /* MovieDetailViewController.swift in Sources */,
 				61F0D10026859F8400984A8C /* AppDelegate.swift in Sources */,
+				61F0D1202685A14A00984A8C /* LoginCoordinator.swift in Sources */,
+				61F0D1282685A1DD00984A8C /* ForgotPasswordViewController.swift in Sources */,
+				61F0D12C2685A21300984A8C /* MovieListViewController.swift in Sources */,
 				61F0D10226859F8400984A8C /* SceneDelegate.swift in Sources */,
+				61F0D11626859FF600984A8C /* Coordinator.swift in Sources */,
+				61F0D1222685A16500984A8C /* HomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		61F0D10526859F8400984A8C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				61F0D10626859F8400984A8C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		61F0D10A26859F8800984A8C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
