@@ -2,7 +2,7 @@ import UIKit
 
 class MenuViewController: UIViewController {
 
-    weak var coordinator: HomeCoordinator?
+    var coordinator: HomeCoordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()

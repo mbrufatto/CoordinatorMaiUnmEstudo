@@ -1,16 +1,18 @@
 import UIKit
 
-class HomeCoordinator: Coordinator {
-    var navigationController: UINavigationController
-    var children: [Coordinator] = []
+final class HomeCoordinator: Coordinator {
     
-    init(navigationController: UINavigationController) {
-        self.navigationController = navigationController
+    var navigationController: UINavigationController = UINavigationController()
+    var window: UIWindow
+    
+    init(window: UIWindow) {
+        self.window = window
     }
     
     func start() {
         let menuViewController = MenuViewController()
+        window.rootViewController = navigationController
         menuViewController.coordinator = self
-        navigationController.pushViewController(menuViewController, animated: false)
+        navigationController.pushViewController(menuViewController, animated: true)
     }
 }

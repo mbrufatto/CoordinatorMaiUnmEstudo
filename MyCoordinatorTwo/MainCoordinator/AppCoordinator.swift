@@ -1,17 +1,15 @@
 import UIKit
 
-class AppCoordinator: Coordinator {
+final class AppCoordinator: Coordinator {
+    var window: UIWindow
     
-    var navigationController: UINavigationController
-    var children: [Coordinator] = []
-    
-    init(navigationController: UINavigationController) {
-        self.navigationController = navigationController
+    init(window: UIWindow) {
+        self.window = window
     }
     
     func start() {
-        let loginCoordinator = LoginCoordinator(navigationController: navigationController)
+        let loginCoordinator = LoginCoordinator(window: window)
+        loginCoordinator.coordinator = self
         loginCoordinator.start()
-        children.append(loginCoordinator)
     }
 }

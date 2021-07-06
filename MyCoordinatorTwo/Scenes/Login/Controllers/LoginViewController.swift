@@ -1,8 +1,8 @@
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController{
 
-    weak var coordinator: LoginCoordinator?
+    var coordinator: LoginCoordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,13 +35,13 @@ class LoginViewController: UIViewController {
     @objc func tapSignUpButton() {
         coordinator?.goToSignUp()
     }
-    
+
     @objc func tapForgotPasswordButton() {
         coordinator?.goToForgotPassword()
     }
-    
+
     @objc func tapHomeButton() {
         coordinator?.goToHome()
-        
+
     }
 }

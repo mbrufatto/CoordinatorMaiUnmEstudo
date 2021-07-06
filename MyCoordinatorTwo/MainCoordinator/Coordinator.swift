@@ -1,7 +1,9 @@
 import UIKit
 
-protocol Coordinator {
-    var navigationController: UINavigationController { get set}
-    var children: [Coordinator] { get set }
+protocol Coordinator: AnyObject {
+    var window: UIWindow { get }
+
+    init(window: UIWindow)
+
     func start()
 }

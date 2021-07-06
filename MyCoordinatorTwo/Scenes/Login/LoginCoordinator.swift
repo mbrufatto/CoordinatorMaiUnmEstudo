@@ -1,32 +1,45 @@
 import UIKit
 
-class LoginCoordinator: Coordinator {
-    var navigationController: UINavigationController
-    var children: [Coordinator] = []
+protocol LoginCoordinatorProtocol: Coordinator {
+    func goToHome()
+    func goToForgotPassword()
+    func goToSignUp()
+}
+
+
+final class LoginCoordinator: LoginCoordinatorProtocol {
     
-    init(navigationController: UINavigationController) {
-        self.navigationController = navigationController
+    var coordinator: AppCoordinator?
+    var window: UIWindow
+    let navigationController = UINavigationController()
+    
+    init(window: UIWindow) {
+        self.window = window
     }
     
     func start() {
         let loginViewController = LoginViewController()
         loginViewController.coordinator = self
-        navigationController.pushViewController(loginViewController, animated: false)
+        window.rootViewController = navigationController
+        navigationController.pushViewController(loginViewController, animated: true)
     }
-    
-    func goToSignUp() {
-        let signUpViewController = SignupViewController()
-        navigationController.pushViewController(signUpViewController, animated: true)
+}
+
+
+extension LoginCoordinator {
+    func goToHome(){
+        let homeCoordinator = HomeCoordinator(window: window)
+        homeCoordinator.start()
     }
-    
     func goToForgotPassword() {
         let forgotPassword = ForgotPasswordViewController()
+        forgotPassword.coordinator = self
         navigationController.pushViewController(forgotPassword, animated: true)
     }
     
-    func goToHome() {
-        let homeCoordinator = HomeCoordinator(navigationController: navigationController)
-        homeCoordinator.start()
-        children.append(homeCoordinator)
+    func goToSignUp() {
+        let signUp = SignupViewController()
+        signUp.coordinator = self
+        navigationController.pushViewController(signUp, animated: true)
     }
 }

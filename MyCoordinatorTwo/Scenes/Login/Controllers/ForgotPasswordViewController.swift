@@ -9,7 +9,7 @@ import UIKit
 
 class ForgotPasswordViewController: UIViewController {
     
-    weak var coordinator: LoginCoordinator?
+    var coordinator: LoginCoordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()
