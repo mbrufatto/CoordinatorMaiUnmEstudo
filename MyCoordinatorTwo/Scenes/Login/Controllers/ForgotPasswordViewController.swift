@@ -9,8 +9,6 @@ import UIKit
 
 class ForgotPasswordViewController: UIViewController {
     
-    var coordinator: LoginCoordinator?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         

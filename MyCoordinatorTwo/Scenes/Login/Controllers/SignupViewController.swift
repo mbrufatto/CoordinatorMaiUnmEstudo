@@ -9,8 +9,6 @@ import UIKit
 
 class SignupViewController: UIViewController {
     
-    var coordinator: LoginCoordinator?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
